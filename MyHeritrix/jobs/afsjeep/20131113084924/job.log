@@ -1,0 +1,8 @@
+2013-11-13T08:49:25.475Z INFO PREPARING 20131113084924
+2013-11-13T08:49:25.594Z INFO PAUSED 20131113084924
+2013-11-13T08:49:29.762Z INFO CHECKPOINTED cp00001-20131113084929
+2013-11-13T08:49:34.583Z INFO RUNNING 20131113084924
+2013-11-13T08:50:09.000Z WARNING Cookie rejected: "SETTINGS.LOCALE=en%5Fus". Illegal path attribute "/cfusion/". Path of origin: "/robots.txt" (in thread 'ToeThread #6: http://get.adobe.com/robots.txt'; in processor 'fetchHttp')
+2013-11-13T08:51:08.813Z WARNING Cookie rejected: "SETTINGS.LOCALE=en%5Fus". Illegal path attribute "/cfusion/". Path of origin: "/flashplayer/" (in thread 'ToeThread #13: http://get.adobe.com/flashplayer/'; in processor 'fetchHttp')
+2013-11-13T08:58:15.169Z INFO PAUSING 20131113084924
+2013-11-13T08:58:16.449Z INFO PAUSED 20131113084924

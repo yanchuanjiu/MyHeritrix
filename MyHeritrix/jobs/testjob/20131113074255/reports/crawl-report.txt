@@ -1,0 +1,21 @@
+crawl name: testjob
+crawl status: Finished - Ended by operator
+duration: 5m26s692ms
+
+seeds crawled: 1
+seeds uncrawled: 0
+
+hosts visited: 176
+
+URIs processed: 1766
+URI successes: 1541
+URI failures: 0
+URI disregards: 225
+
+novel URIs: 1541
+
+total crawled bytes: 30562162 (29 MiB) 
+novel crawled bytes: 30562162 (29 MiB)
+
+URIs/sec: 4.72
+KB/sec: 91

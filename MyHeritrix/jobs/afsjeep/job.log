@@ -1,0 +1,53 @@
+2013-11-13T08:20:23.243Z INFO Job instantiated
+2013-11-13T08:20:23.287Z WARNING Field error in object 'metadata' on field 'operatorContactUrl': rejected value [ENTER_AN_URL_WITH_YOUR_CONTACT_INFO_HERE_FOR_WEBMASTERS_AFFECTED_BY_YOUR_CRAWL]; codes [null.metadata.operatorContactUrl,null.operatorContactUrl,null.java.lang.String,null]; arguments []; default message [You must supply an HTTP(S) URL which will be included in your user-agent and should explain the purpose of your crawl and how to contact the crawl operator in the event of webmaster issues.]
+2013-11-13T08:20:44.111Z INFO Job instance discarded
+2013-11-13T08:20:45.204Z INFO Job instantiated
+2013-11-13T08:20:45.204Z WARNING Field error in object 'metadata' on field 'operatorContactUrl': rejected value [ENTER_AN_URL_WITH_YOUR_CONTACT_INFO_HERE_FOR_WEBMASTERS_AFFECTED_BY_YOUR_CRAWL]; codes [null.metadata.operatorContactUrl,null.operatorContactUrl,null.java.lang.String,null]; arguments []; default message [You must supply an HTTP(S) URL which will be included in your user-agent and should explain the purpose of your crawl and how to contact the crawl operator in the event of webmaster issues.]
+2013-11-13T08:20:45.204Z SEVERE Can't launch problem configuration
+2013-11-13T08:20:45.204Z SEVERE Can't launch problem configuration
+2013-11-13T08:22:20.044Z INFO Job instance discarded
+2013-11-13T08:22:22.249Z INFO Job instantiated
+2013-11-13T08:22:22.249Z INFO Job launched
+2013-11-13T08:22:23.794Z WARNING failed to create symlink from C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\latest to C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\20131113082223 (in thread 'afsjeep launchthread')
+2013-11-13T08:22:24.360Z INFO Job instance discarded
+2013-11-13T08:22:24.377Z SEVERE Failed to start bean 'crawlController'; nested exception is java.lang.OutOfMemoryError: Java heap space
+2013-11-13T08:22:24.377Z SEVERE Failed to start bean 'crawlController'; nested exception is java.lang.OutOfMemoryError: Java heap space (in thread 'afsjeep launchthread')
+2013-11-13T08:25:16.277Z INFO Job instantiated
+2013-11-13T08:25:16.278Z INFO Job launched
+2013-11-13T08:25:17.803Z WARNING failed to create symlink from C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\latest to C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\20131113082517 (in thread 'afsjeep launchthread')
+2013-11-13T08:25:18.189Z INFO PREPARING 20131113082517
+2013-11-13T08:30:47.359Z INFO STOPPING 20131113082517
+2013-11-13T08:30:50.678Z INFO FINISHED 20131113082517
+2013-11-13T08:30:51.315Z INFO Job instance discarded
+2013-11-13T08:30:53.973Z INFO Job instantiated
+2013-11-13T08:30:53.974Z INFO Job launched
+2013-11-13T08:30:55.499Z WARNING failed to create symlink from C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\latest to C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\20131113083055 (in thread 'afsjeep launchthread')
+2013-11-13T08:30:55.885Z INFO PREPARING 20131113083055
+2013-11-13T08:31:19.026Z INFO CHECKPOINTED cp00001-20131113083118
+2013-11-13T08:31:31.965Z INFO STOPPING 20131113083055
+2013-11-13T08:31:35.333Z INFO FINISHED 20131113083055
+2013-11-13T08:31:35.331Z SEVERE Unhandled exception or error intercepted
+2013-11-13T08:31:35.771Z INFO Job instance discarded
+2013-11-13T08:31:39.935Z INFO Job instantiated
+2013-11-13T08:31:56.308Z INFO Job launched
+2013-11-13T08:31:57.882Z WARNING failed to create symlink from C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\latest to C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\20131113083157 (in thread 'afsjeep launchthread')
+2013-11-13T08:31:58.459Z INFO Job instance discarded
+2013-11-13T08:31:58.460Z SEVERE Failed to start bean 'crawlController'; nested exception is java.lang.OutOfMemoryError: Java heap space
+2013-11-13T08:31:58.460Z SEVERE Failed to start bean 'crawlController'; nested exception is java.lang.OutOfMemoryError: Java heap space (in thread 'afsjeep launchthread')
+2013-11-13T08:34:56.473Z INFO Job instantiated
+2013-11-13T08:34:59.018Z INFO Job launched
+2013-11-13T08:35:00.563Z WARNING failed to create symlink from C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\latest to C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\20131113083500 (in thread 'afsjeep launchthread')
+2013-11-13T08:35:01.293Z INFO Job instance discarded
+2013-11-13T08:35:01.294Z SEVERE Failed to start bean 'crawlController'; nested exception is java.lang.OutOfMemoryError: Java heap space
+2013-11-13T08:35:01.294Z SEVERE Failed to start bean 'crawlController'; nested exception is java.lang.OutOfMemoryError: Java heap space (in thread 'afsjeep launchthread')
+2013-11-13T08:49:21.206Z INFO Job instantiated
+2013-11-13T08:49:23.281Z INFO Job launched
+2013-11-13T08:49:24.839Z WARNING failed to create symlink from C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\latest to C:\Users\jyan\git\MyCrawl\MyHeritrix\.\jobs\afsjeep\20131113084924 (in thread 'afsjeep launchthread')
+2013-11-13T08:49:25.475Z INFO PREPARING 20131113084924
+2013-11-13T08:49:25.594Z INFO PAUSED 20131113084924
+2013-11-13T08:49:29.762Z INFO CHECKPOINTED cp00001-20131113084929
+2013-11-13T08:49:34.583Z INFO RUNNING 20131113084924
+2013-11-13T08:50:09.000Z WARNING Cookie rejected: "SETTINGS.LOCALE=en%5Fus". Illegal path attribute "/cfusion/". Path of origin: "/robots.txt" (in thread 'ToeThread #6: http://get.adobe.com/robots.txt'; in processor 'fetchHttp')
+2013-11-13T08:51:08.813Z WARNING Cookie rejected: "SETTINGS.LOCALE=en%5Fus". Illegal path attribute "/cfusion/". Path of origin: "/flashplayer/" (in thread 'ToeThread #13: http://get.adobe.com/flashplayer/'; in processor 'fetchHttp')
+2013-11-13T08:58:15.169Z INFO PAUSING 20131113084924
+2013-11-13T08:58:16.449Z INFO PAUSED 20131113084924

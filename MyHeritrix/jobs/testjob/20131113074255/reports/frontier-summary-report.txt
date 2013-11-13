@@ -1,0 +1,598 @@
+Frontier report - 201311130845
+ Job being crawled: testjob
+
+ -----===== STATS =====-----
+ Discovered:    5020
+ Queued:        3257
+ Finished:      1766
+  Successfully: 1541
+  Failed:       0
+  Disregarded:  225
+
+ -----===== QUEUES =====-----
+ Already included size:     5020
+               pending:     0
+
+ All class queues map size: 176
+             Active queues: 19
+                    In-process: 0
+                         Ready: 0
+                       Snoozed: 19
+           Inactive queues: 0 (p3: 0)
+            Retired queues: 0
+          Exhausted queues: 157
+
+             Last state: PAUSE
+ -----===== MANAGER THREAD =====-----
+Java Thread State: RUNNABLE
+Blocked/Waiting On: NONE
+    java.lang.Thread.getStackTrace(Unknown Source)
+    org.archive.crawler.framework.ToeThread.reportThread(ToeThread.java:483)
+    org.archive.crawler.frontier.WorkQueueFrontier.standardReportTo(WorkQueueFrontier.java:1399)
+    org.archive.crawler.frontier.WorkQueueFrontier.reportTo(WorkQueueFrontier.java:1229)
+    org.archive.crawler.reporting.FrontierSummaryReport.write(FrontierSummaryReport.java:41)
+    org.archive.crawler.reporting.StatisticsTracker.writeReportFile(StatisticsTracker.java:909)
+    org.archive.crawler.reporting.StatisticsTracker.dumpReports(StatisticsTracker.java:937)
+    org.archive.crawler.reporting.StatisticsTracker.crawlEnded(StatisticsTracker.java:565)
+    org.archive.crawler.reporting.StatisticsTracker.onApplicationEvent(StatisticsTracker.java:985)
+    org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:97)
+    org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:303)
+    org.archive.crawler.framework.CrawlController.sendCrawlStateChangeEvent(CrawlController.java:326)
+    org.archive.crawler.framework.CrawlController.completeStop(CrawlController.java:391)
+    org.archive.crawler.framework.CrawlController.noteFrontierState(CrawlController.java:656)
+    org.archive.crawler.frontier.AbstractFrontier.reachedState(AbstractFrontier.java:439)
+    org.archive.crawler.frontier.AbstractFrontier.managementTasks(AbstractFrontier.java:397)
+    org.archive.crawler.frontier.AbstractFrontier$1.run(AbstractFrontier.java:315)
+
+ -----===== 20 LONGEST QUEUES =====-----
+LONGEST#0:
+Queue cn,sinaimg,i3, (p3)
+  740 items
+   wakes in: -56m42s855ms
+    last enqueued: http://i3.sinaimg.cn/cj/mediashow/images/mtx_01.png
+      last peeked: http://i3.sinaimg.cn/jc/http/slide.mil.news.sina.com.cn/U1335P27T159D6002F3957DT20131108112900.jpg
+   total expended: 68 (total budget: -1)
+   active balance: 2932
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   808 68 0 0 68 0 1525221 1525221 2 2013-11-13T07:48:29.858Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#1:
+Queue cn,sinaimg,i1, (p3)
+  734 items
+   wakes in: -56m44s57ms
+    last enqueued: http://i1.sinaimg.cn/pfp/i/z4/js/z2.js?a=2
+      last peeked: http://i1.sinaimg.cn/jc/http/slide.mil.news.sina.com.cn/U1335P27T159D6008F3957DT20131111122118.jpg
+   total expended: 95 (total budget: -1)
+   active balance: 2905
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   829 95 0 0 95 0 1820152 1820152 2 2013-11-13T07:48:28.657Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#2:
+Queue cn,sinaimg,i2, (p3)
+  703 items
+   wakes in: -45m32s108ms
+    last enqueued: http://i2.sinaimg.cn/pfp/iask/images/zhishi/chunyuyizhen.jpg
+      last peeked: http://i2.sinaimg.cn/favicon.ico
+   total expended: 19 (total budget: -1)
+   active balance: 2981
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   721 18 0 0 18 0 83464 83464 3 2013-11-13T07:44:20.087Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#3:
+Queue cn,sinaimg,i0, (p3)
+  681 items
+   wakes in: -56m44s329ms
+    last enqueued: http://i0.sinaimg.cn/unipro/pub/suda_s_v851c.js
+      last peeked: http://i0.sinaimg.cn/jc/http/slide.mil.news.sina.com.cn/U1335P27T159D6000F3957DT20131108090704.jpg
+   total expended: 86 (total budget: -1)
+   active balance: 2914
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   767 86 0 0 86 0 1397147 1397147 2 2013-11-13T07:48:28.385Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#4:
+Queue cn,com,sina,image2, (p3)
+  200 items
+   wakes in: -45m48s23ms
+    last enqueued: http://image2.sina.com.cn/cj/zlzzhz/cjzl_lj_001.gif
+      last peeked: http://image2.sina.com.cn/ty/yyh07.jpg
+   total expended: 3 (total budget: -1)
+   active balance: 2997
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   202 2 0 0 2 0 1083 1083 3 2013-11-13T07:43:47.703Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#5:
+Queue cn,com,sina,finance, (p3)
+  147 items
+   wakes in: -56m44s501ms
+    last enqueued: http://finance.sina.com.cn/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
+      last peeked: http://finance.sina.com.cn/;e.style.height=
+   total expended: 95 (total budget: -1)
+   active balance: 2905
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   242 95 0 0 95 0 2175729 2175729 2 2013-11-13T07:48:28.212Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#6:
+Queue com,sina,dailynews, (p3)
+  12 items
+   wakes in: -46m11s184ms
+    last enqueued: http://dailynews.sina.com/robots.txt
+      last peeked: http://dailynews.sina.com/robots.txt
+   total expended: 2 (total budget: -1)
+   active balance: 2998
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   13 1 0 0 1 0 57 57 3 2013-11-13T07:43:40.719Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#7:
+Queue cn,sinaimg,www, (p3)
+  8 items
+   wakes in: -56m43s948ms
+    last enqueued: http://www.sinaimg.cn/pfp/i/z4/img/pdf.gif
+      last peeked: http://www.sinaimg.cn/pfp/iask/images/zhishi/jiaodian130321.jpg
+   total expended: 13 (total budget: -1)
+   active balance: 2999
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   21 13 0 0 13 0 128827 128827 2 2013-11-13T07:48:28.766Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#8:
+Queue cn,com,sina,iask, (p3)
+  7 items
+   wakes in: -56m44s9ms
+    last enqueued: http://iask.sina.com.cn/js/dialog.js
+      last peeked: http://iask.sina.com.cn/
+   total expended: 3 (total budget: -1)
+   active balance: 2997
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   10 3 0 0 3 0 66339 66339 1 2013-11-13T07:48:28.521Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#9:
+Queue cn,com,sina,beacon, (p3)
+  5 items
+   wakes in: -46m7s775ms
+    last enqueued: http://beacon.sina.com.cn/d.gif
+      last peeked: http://beacon.sina.com.cn/
+   total expended: 4 (total budget: -1)
+   active balance: 2996
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   8 3 0 0 3 0 1044 1044 3 2013-11-13T07:43:29.449Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#10:
+Queue cn,com,sina,iask,image, (p3)
+  3 items
+   wakes in: -56m43s902ms
+    last enqueued: http://image.iask.sina.com.cn/teamlogo/43/61/120_1932246143_team.gif
+      last peeked: dns:image.iask.sina.com.cn
+   total expended: 1 (total budget: -1)
+   active balance: 2999
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   4 1 0 0 1 0 62 62 1 2013-11-13T07:48:28.813Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#11:
+Queue cn,kitco,www, (p3)
+  2 items
+   wakes in: -56m40s645ms
+    last enqueued: http://www.kitco.cn/favicon.ico
+      last peeked: http://www.kitco.cn/cn/live_charts/silvercny.gif
+   total expended: 3 (total budget: -1)
+   active balance: 2997
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   5 3 0 0 3 0 18477 18477 2 2013-11-13T07:48:27.729Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#12:
+Queue com,sharelynx,www, (p3)
+  2 items
+   wakes in: -56m39s954ms
+    last enqueued: http://www.sharelynx.com/favicon.ico
+      last peeked: http://www.sharelynx.com/chartstemp/charts11/kitco2aglrates.php
+   total expended: 3 (total budget: -1)
+   active balance: 2997
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   5 3 0 0 3 0 12453 12453 2 2013-11-13T07:48:27.433Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#13:
+Queue com,macromedia,fpdownload, (p3)
+  1 items
+   wakes in: -56m43s881ms
+    last enqueued: http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab
+      last peeked: dns:fpdownload.macromedia.com
+   total expended: 1 (total budget: -1)
+   active balance: 2999
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   2 1 0 0 1 0 59 59 1 2013-11-13T07:48:28.835Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#14:
+Queue cn,com,sina,d1, (p3)
+  0 items
+    last enqueued: http://d1.sina.com.cn/d1images/sinaads_entry/sinaads_entry_finance.js
+      last peeked: http://d1.sina.com.cn/d1images/sinaads_entry/sinaads_entry_finance.js
+   total expended: 39 (total budget: -1)
+   active balance: 2961
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   39 39 0 0 39 0 395403 395403 2 2013-11-13T07:46:39.199Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#15:
+Queue cn,com,sina,finance,stock, (p3)
+  0 items
+    last enqueued: http://stock.finance.sina.com.cn/favicon.ico
+      last peeked: http://stock.finance.sina.com.cn/favicon.ico
+   total expended: 4 (total budget: -1)
+   active balance: 2996
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   4 4 0 0 4 0 31629 31629 2 2013-11-13T07:47:31.344Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#16:
+Queue cn,com,sina,mobile, (p3)
+  0 items
+    last enqueued: http://mobile.sina.com.cn/%7Burl:%20'http://slide.tech.sina.com.cn/mobile/slide_5_22298_38059.html',%20text:%20'%E6%9C%80%E4%BE%BF%E5%AE%9C%E9%AA%81%E9%BE%99800%E5%9B%9B%E6%A0%B8%20%E8%B0%B7%E6%AD%8CNexus%205%E5%85%A8%E6%8B%86%E8%A7%A3',%20pic:%20'http://i3.sinaimg.cn/IT/http/slide.tech.sina.com.cn/mobile/U9234P2T1D8901950F3647DT20131111083539.jpg'%7D
+      last peeked: http://mobile.sina.com.cn/%7Burl:%20'http://slide.tech.sina.com.cn/mobile/slide_5_22298_38059.html',%20text:%20'%E6%9C%80%E4%BE%BF%E5%AE%9C%E9%AA%81%E9%BE%99800%E5%9B%9B%E6%A0%B8%20%E8%B0%B7%E6%AD%8CNexus%205%E5%85%A8%E6%8B%86%E8%A7%A3',%20pic:%20'http://i3.sinaimg.cn/IT/http/slide.tech.sina.com.cn/mobile/U9234P2T1D8901950F3647DT20131111083539.jpg'%7D
+   total expended: 40 (total budget: -1)
+   active balance: 2960
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   40 40 0 0 40 0 242164 242164 2 2013-11-13T07:45:32.111Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#17:
+Queue cn,com,sina,rm, (p3)
+  0 items
+    last enqueued: http://rm.sina.com.cn/icast/rotator.js
+      last peeked: http://rm.sina.com.cn/shanghai/demo/qy_demo/img/new/play_on.png
+   total expended: 27 (total budget: -1)
+   active balance: 2973
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   27 27 0 0 27 0 389402 389402 2 2013-11-13T07:45:02.963Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#18:
+Queue com,iask, (p3)
+  0 items
+   wakes in: -56m44s459ms
+    last enqueued: http://iask.com/favicon.ico
+      last peeked: http://iask.com/favicon.ico
+   total expended: 4 (total budget: -1)
+   active balance: 2996
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   4 4 0 0 4 0 1715 1715 2 2013-11-13T07:48:28.256Z
+   SimplePrecedenceProvider
+   3
+
+LONGEST#19:
+Queue com,sinaedge,vipbook, (p3)
+  0 items
+    last enqueued: http://vipbook.sinaedge.com/bookcover/pics/39/cover_810b7fab6903ba520a363f2462613704.jpg
+      last peeked: http://vipbook.sinaedge.com/bookcover/pics/85/cover_32e2c948142b59f10ebbb5e388bc24d5.jpg
+   total expended: 47 (total budget: -1)
+   active balance: 2953
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   47 47 0 0 47 0 2358217 2358217 2 2013-11-13T07:46:33.938Z
+   SimplePrecedenceProvider
+   3
+
+
+ -----===== IN-PROCESS QUEUES =====-----
+
+ -----===== READY QUEUES =====-----
+
+ -----===== SNOOZED QUEUES =====-----
+SNOOZED#0:
+Queue cn,com,sina,finance, (p3)
+  147 items
+   wakes in: -56m44s502ms
+    last enqueued: http://finance.sina.com.cn/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
+      last peeked: http://finance.sina.com.cn/;e.style.height=
+   total expended: 95 (total budget: -1)
+   active balance: 2905
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   242 95 0 0 95 0 2175729 2175729 2 2013-11-13T07:48:28.212Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#1:
+Queue com,iask, (p3)
+  0 items
+   wakes in: -56m44s459ms
+    last enqueued: http://iask.com/favicon.ico
+      last peeked: http://iask.com/favicon.ico
+   total expended: 4 (total budget: -1)
+   active balance: 2996
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   4 4 0 0 4 0 1715 1715 2 2013-11-13T07:48:28.256Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#2:
+Queue cn,sinaimg,i0, (p3)
+  681 items
+   wakes in: -56m44s330ms
+    last enqueued: http://i0.sinaimg.cn/unipro/pub/suda_s_v851c.js
+      last peeked: http://i0.sinaimg.cn/jc/http/slide.mil.news.sina.com.cn/U1335P27T159D6000F3957DT20131108090704.jpg
+   total expended: 86 (total budget: -1)
+   active balance: 2914
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   767 86 0 0 86 0 1397147 1397147 2 2013-11-13T07:48:28.385Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#3:
+Queue cn,sinaimg,i1, (p3)
+  734 items
+   wakes in: -56m44s58ms
+    last enqueued: http://i1.sinaimg.cn/pfp/i/z4/js/z2.js?a=2
+      last peeked: http://i1.sinaimg.cn/jc/http/slide.mil.news.sina.com.cn/U1335P27T159D6008F3957DT20131111122118.jpg
+   total expended: 95 (total budget: -1)
+   active balance: 2905
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   829 95 0 0 95 0 1820152 1820152 2 2013-11-13T07:48:28.657Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#4:
+Queue cn,com,sina,iask, (p3)
+  7 items
+   wakes in: -56m44s10ms
+    last enqueued: http://iask.sina.com.cn/js/dialog.js
+      last peeked: http://iask.sina.com.cn/
+   total expended: 3 (total budget: -1)
+   active balance: 2997
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   10 3 0 0 3 0 66339 66339 1 2013-11-13T07:48:28.521Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#5:
+Queue cn,sinaimg,www, (p3)
+  8 items
+   wakes in: -56m43s949ms
+    last enqueued: http://www.sinaimg.cn/pfp/i/z4/img/pdf.gif
+      last peeked: http://www.sinaimg.cn/pfp/iask/images/zhishi/jiaodian130321.jpg
+   total expended: 13 (total budget: -1)
+   active balance: 2999
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   21 13 0 0 13 0 128827 128827 2 2013-11-13T07:48:28.766Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#6:
+Queue cn,com,sina,iask,image, (p3)
+  3 items
+   wakes in: -56m43s903ms
+    last enqueued: http://image.iask.sina.com.cn/teamlogo/43/61/120_1932246143_team.gif
+      last peeked: dns:image.iask.sina.com.cn
+   total expended: 1 (total budget: -1)
+   active balance: 2999
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   4 1 0 0 1 0 62 62 1 2013-11-13T07:48:28.813Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#7:
+Queue com,macromedia,fpdownload, (p3)
+  1 items
+   wakes in: -56m43s882ms
+    last enqueued: http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab
+      last peeked: dns:fpdownload.macromedia.com
+   total expended: 1 (total budget: -1)
+   active balance: 2999
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   2 1 0 0 1 0 59 59 1 2013-11-13T07:48:28.835Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#8:
+Queue cn,sinaimg,i3, (p3)
+  740 items
+   wakes in: -56m42s857ms
+    last enqueued: http://i3.sinaimg.cn/cj/mediashow/images/mtx_01.png
+      last peeked: http://i3.sinaimg.cn/jc/http/slide.mil.news.sina.com.cn/U1335P27T159D6002F3957DT20131108112900.jpg
+   total expended: 68 (total budget: -1)
+   active balance: 2932
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   808 68 0 0 68 0 1525221 1525221 2 2013-11-13T07:48:29.858Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#9:
+Queue cn,kitco,www, (p3)
+  2 items
+   wakes in: -56m40s646ms
+    last enqueued: http://www.kitco.cn/favicon.ico
+      last peeked: http://www.kitco.cn/cn/live_charts/silvercny.gif
+   total expended: 3 (total budget: -1)
+   active balance: 2997
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   5 3 0 0 3 0 18477 18477 2 2013-11-13T07:48:27.729Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#10:
+Queue com,sharelynx,www, (p3)
+  2 items
+   wakes in: -56m39s955ms
+    last enqueued: http://www.sharelynx.com/favicon.ico
+      last peeked: http://www.sharelynx.com/chartstemp/charts11/kitco2aglrates.php
+   total expended: 3 (total budget: -1)
+   active balance: 2997
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   5 3 0 0 3 0 12453 12453 2 2013-11-13T07:48:27.433Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#11:
+Queue s, (p3)
+  2 items
+   wakes in: -46m58s590ms
+    last enqueued: dns:s
+      last peeked: dns:s
+   total expended: 1 (total budget: -1)
+   active balance: 2999
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   2 0 0 0 0 0 0 0 2 1970-01-01T00:00:00.000Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#12:
+Queue cn,com,sina,bgm, (p3)
+  2 items
+   wakes in: -46m31s276ms
+    last enqueued: http://bgm.sina.com.cn/robots.txt
+      last peeked: http://bgm.sina.com.cn/robots.txt
+   total expended: 2 (total budget: -1)
+   active balance: 2998
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   3 1 0 0 1 0 91 91 3 2013-11-13T07:43:41.278Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#13:
+Queue com,sina,dailynews, (p3)
+  12 items
+   wakes in: -46m11s185ms
+    last enqueued: http://dailynews.sina.com/robots.txt
+      last peeked: http://dailynews.sina.com/robots.txt
+   total expended: 2 (total budget: -1)
+   active balance: 2998
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   13 1 0 0 1 0 57 57 3 2013-11-13T07:43:40.719Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#14:
+Queue com,sina,ui, (p3)
+  6 items
+   wakes in: -46m11s25ms
+    last enqueued: http://ui.sina.com/robots.txt
+      last peeked: http://ui.sina.com/robots.txt
+   total expended: 2 (total budget: -1)
+   active balance: 2998
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   7 1 0 0 1 0 51 51 3 2013-11-13T07:43:40.889Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#15:
+Queue com,shidefc,www, (p3)
+  2 items
+   wakes in: -46m10s708ms
+    last enqueued: http://www.shidefc.com/robots.txt
+      last peeked: http://www.shidefc.com/robots.txt
+   total expended: 2 (total budget: -1)
+   active balance: 2998
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   3 1 0 0 1 0 57 57 3 2013-11-13T07:43:41.343Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#16:
+Queue cn,com,sina,beacon, (p3)
+  5 items
+   wakes in: -46m7s777ms
+    last enqueued: http://beacon.sina.com.cn/d.gif
+      last peeked: http://beacon.sina.com.cn/
+   total expended: 4 (total budget: -1)
+   active balance: 2996
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   8 3 0 0 3 0 1044 1044 3 2013-11-13T07:43:29.449Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#17:
+Queue cn,com,sina,image2, (p3)
+  200 items
+   wakes in: -45m48s25ms
+    last enqueued: http://image2.sina.com.cn/cj/zlzzhz/cjzl_lj_001.gif
+      last peeked: http://image2.sina.com.cn/ty/yyh07.jpg
+   total expended: 3 (total budget: -1)
+   active balance: 2997
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   202 2 0 0 2 0 1083 1083 3 2013-11-13T07:43:47.703Z
+   SimplePrecedenceProvider
+   3
+
+SNOOZED#18:
+Queue cn,sinaimg,i2, (p3)
+  703 items
+   wakes in: -45m32s110ms
+    last enqueued: http://i2.sinaimg.cn/pfp/iask/images/zhishi/chunyuyizhen.jpg
+      last peeked: http://i2.sinaimg.cn/favicon.ico
+   total expended: 19 (total budget: -1)
+   active balance: 2981
+   last(avg) cost: 1(1)
+   totalScheduled fetchSuccesses fetchFailures fetchDisregards fetchResponses robotsDenials successBytes totalBytes fetchNonResponses lastSuccessTime
+   721 18 0 0 18 0 83464 83464 3 2013-11-13T07:44:20.087Z
+   SimplePrecedenceProvider
+   3
+
+
+ -----===== INACTIVE QUEUES =====-----
+
+ -----===== RETIRED QUEUES =====-----
