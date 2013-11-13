@@ -1,0 +1,32 @@
+2013-11-13T03:14:34.903Z SEVERE Unhandled exception or error intercepted
+2013-11-13T03:14:59.231Z SEVERE Unhandled exception or error intercepted
+2013-11-13T03:16:20.117Z SEVERE Unhandled exception or error intercepted
+2013-11-13T03:27:37.883Z INFO Job instantiated
+2013-11-13T03:27:37.893Z WARNING Field error in object 'metadata' on field 'operatorContactUrl': rejected value [ENTER_AN_URL_WITH_YOUR_CONTACT_INFO_HERE_FOR_WEBMASTERS_AFFECTED_BY_YOUR_CRAWL]; codes [null.metadata.operatorContactUrl,null.operatorContactUrl,null.java.lang.String,null]; arguments []; default message [You must supply an HTTP(S) URL which will be included in your user-agent and should explain the purpose of your crawl and how to contact the crawl operator in the event of webmaster issues.]
+2013-11-13T03:31:18.499Z INFO Job instance discarded
+2013-11-13T03:31:20.404Z INFO Job instantiated
+2013-11-13T03:31:20.404Z WARNING Field error in object 'metadata' on field 'operatorContactUrl': rejected value [Https://localhost:8443]; codes [null.metadata.operatorContactUrl,null.operatorContactUrl,null.java.lang.String,null]; arguments []; default message [You must supply an HTTP(S) URL which will be included in your user-agent and should explain the purpose of your crawl and how to contact the crawl operator in the event of webmaster issues.]
+2013-11-13T03:31:20.404Z SEVERE Can't launch problem configuration
+2013-11-13T03:31:20.404Z SEVERE Can't launch problem configuration
+2013-11-13T03:32:19.688Z INFO Job instance discarded
+2013-11-13T03:32:21.049Z INFO Job instantiated
+2013-11-13T03:32:21.049Z INFO Job launched
+2013-11-13T03:32:23.370Z WARNING failed to create symlink from C:\Users\jyan\workspace\MyHeritrix\.\jobs\testjob\latest to C:\Users\jyan\workspace\MyHeritrix\.\jobs\testjob\20131113033222 (in thread 'testjob launchthread')
+2013-11-13T03:32:24.172Z INFO PREPARING 20131113033222
+2013-11-13T03:32:24.412Z INFO PAUSED 20131113033222
+2013-11-13T03:32:44.415Z INFO CHECKPOINTED cp00001-20131113033244
+2013-11-13T03:32:48.156Z INFO RUNNING 20131113033222
+2013-11-13T03:32:50.889Z INFO STOPPING 20131113033222
+2013-11-13T03:32:51.598Z INFO FINISHED 20131113033222
+2013-11-13T03:32:52.351Z INFO Job instance discarded
+2013-11-13T03:32:53.522Z INFO Job instantiated
+2013-11-13T03:32:53.522Z INFO Job launched
+2013-11-13T03:32:55.043Z WARNING failed to create symlink from C:\Users\jyan\workspace\MyHeritrix\.\jobs\testjob\latest to C:\Users\jyan\workspace\MyHeritrix\.\jobs\testjob\20131113033255 (in thread 'testjob launchthread')
+2013-11-13T03:32:55.553Z INFO PREPARING 20131113033255
+2013-11-13T03:32:55.653Z INFO PAUSED 20131113033255
+2013-11-13T03:33:25.320Z INFO CHECKPOINTED cp00001-20131113033324
+2013-11-13T03:33:30.400Z INFO RUNNING 20131113033255
+2013-11-13T03:36:02.964Z INFO STOPPING 20131113033255
+2013-11-13T03:36:06.265Z SEVERE Unhandled exception or error intercepted
+2013-11-13T03:36:06.265Z INFO FINISHED 20131113033255
+2013-11-13T03:36:07.056Z INFO Job instance discarded
